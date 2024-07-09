@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(119, 67, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+
+    background-color: rgb(255, 255, 255);
+    border: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 10rem;
+}
+
